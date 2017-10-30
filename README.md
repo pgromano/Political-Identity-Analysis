@@ -14,12 +14,12 @@ To build the model I would gather data from web APIs, such as govTrack, Gallup, 
 
 As an initial exploratory data analysis, I collected time-series (2012-2015) cumulative public opinion data from the [American National Election Studies][1]. From the survey, I collected and processed "feeling thermometer" questions to track current associations with parties and public opinion. Thermometer surveys have a respondent place their opinion of a topic on a scale from 0 to 100 degrees, where indifference or no opinion is 50, a unfavorable opinion less than 50, and a favorable opinion greater than 50. This allows a convenient metric to quantify public opinion.
 
-![fig1](Figures/fig1.pdf)
+![fig1](Figures/fig1.svg)
 
 As an example, in figure-1 I show the "Temperature" (or perception) of the words "Liberals" versus "Conservatives" in self described (independent, weak, and strong) Democrats and Republicans. The figures show that the alignment towards liberalism or conservatism does not necessarily follow a direct relationship with party lines. While increasing identification to Republicans is associated with a strong separation in temperature between terms Liberal and Conservative, the relation in Democrats is largely constant across all magnitudes. Additionally, the large variance in all subsets being indicative that the dimensionality of the data is overly reduced.
 
 This overlap between the standard party lines, is indicative that other, or different, axes may better represent the political identity of the public. To evaluate what these new axes are on the political spectrum, perform Principal Component Analysis (PCA) to find the axes that capture the largest variance in the thermometer data, such that the number of dimensions used contain 95% of the explained variance. As the data is somewhat noisy, we first generate a **Gaussian Mixture Model** (GMM) to estimate, using an Expectation-Maximization algorithm, the 100 most probable locations along the underlying distribution. From these GMM means k-means is used to extract political groups within the data. If we assume that the standard two-party system (using the 7 categories described previously), then the k-means method should roughly identify these features as distinct groups within the data. By randomly sampling positions about the k-means centroids, as shown in the figure-2, we find that party associated with the centroids are largely overlapping with respect to **Independent**. In other words, the terms Democrat or Republicans (even of varying magnitude) can not sufficiently separate political identity as well as the new axes defined.
 
-![fig2](Figures/fig2.pdf)
+![fig2](Figures/fig2.svg)
 
 [1]: http://www.electionstudies.org/studypages/download/datacenter_all_NoData.php
