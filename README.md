@@ -2,7 +2,7 @@
 
 For my data incubator project, I propose building an app that tracks current public opinions to evaluate political identity extending beyond the standard left or right, blue or red metric.  By increasing the dimensionality of the political spectrum, voter trends become more targeted, discovering nuanced communities, and accurately addressing which issues are of concerns to voters.
 
-As evident from the US 2016 elections, there has been an increasing partisan divide not only between Republican and Democrat parties, but from members within the parties themselves. Several grass-roots organization have capitalized on this, and the residual impact is largely not understand as analysis is typically restricted to a two party system. As this divide increases our current political scope will be unable to understand how best to represent voters.
+As evident from the US 2016 elections, there has been an increasing partisan divide not only between Republican and Democratic parties, but from members within the parties themselves. As this divide increases, the residual impact is largely not understood within the scope of a two-party system.
 
 The purpose of the app would be two-fold. First, users would be able to track their own political identity and comparatively evaluate their respective Congress and Senate representatives. The app would provide voters information with how a politician's voting records align with the user, and extends outside of party lines. Secondly, by providing users with a quiz or survey to track their political identity, public opinion can be gathered in real time, and focused questions can be used to improve the political identity model. Doing so helps to better understand issues limited by a two-party system description.
 
