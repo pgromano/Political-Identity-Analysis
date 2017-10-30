@@ -14,6 +14,8 @@ To build the model I would gather data from web APIs, such as govTrack, Gallup, 
 
 As an initial exploratory data analysis, I collected time-series (2012-2015) cumulative public opinion data from the [American National Election Studies][1]. From the survey, I collected and processed "feeling thermometer" questions to track current associations with parties and public opinion. Thermometer surveys have a respondent place their opinion of a topic on a scale from 0 to 100 degrees, where indifference or no opinion is 50, a unfavorable opinion less than 50, and a favorable opinion greater than 50. This allows a convenient metric to quantify public opinion.
 
+For a more detailed discussion and the sample of code used for this analysis, please see the Jupyter Notebook `Analysis of Multi-Axial Political Identity`.
+
 ![fig1](Figures/fig1.svg)
 
 As an example, in figure-1 I show the "Temperature" (or perception) of the words "Liberals" versus "Conservatives" in self described (independent, weak, and strong) Democrats and Republicans. The figures show that the alignment towards liberalism or conservatism does not necessarily follow a direct relationship with party lines. While increasing identification to Republicans is associated with a strong separation in temperature between terms Liberal and Conservative, the relation in Democrats is largely constant across all magnitudes. Additionally, the large variance in all subsets being indicative that the dimensionality of the data is overly reduced.
