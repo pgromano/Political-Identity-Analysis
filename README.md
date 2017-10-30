@@ -4,7 +4,7 @@ For my data incubator project, I propose building an app that tracks current pub
 
 As evident from the US 2016 elections, there has been an increasing partisan divide not only between Republican and Democratic parties, but from members within the parties themselves. As this divide increases, the residual impact is largely not understood within the scope of a two-party system.
 
-The purpose of the app would be two-fold. First, users would be able to track their own political identity and comparatively evaluate their respective Congress and Senate representatives. The app would provide voters information with how a politician's voting records align with the user, and extends outside of party lines. Secondly, by providing users with a quiz or survey to track their political identity, public opinion can be gathered in real time, and focused questions can be used to improve the political identity model. Doing so helps to better understand issues limited by a two-party system description.
+The purpose of the app would be two-fold. First, users would be able to track their own political identity and comparatively evaluate their respective Congress and Senate representatives. The app would provide voters information with how a politician's voting records align with the user, and extends outside of party lines. Secondly, by providing users with a quiz or survey to track their political identity, public opinion can be gathered in real time, and questions can be directed to improve the political identity model. Doing so helps to better understand issues limited by a two-party system description.
 
 # Generating Political Identity from Public Opinion
 
@@ -14,7 +14,7 @@ To build the model I would gather data from web APIs, such as govTrack, Gallup, 
 
 As an initial exploratory data analysis, I collected time-series (2012-2015) cumulative public opinion data from the [American National Election Studies][1]. From the survey, I collected and processed "feeling thermometer" questions to track current associations with parties and public opinion. Thermometer surveys have a respondent place their opinion of a topic on a scale from 0 to 100 degrees, where indifference or no opinion is 50, a unfavorable opinion less than 50, and a favorable opinion greater than 50. This allows a convenient metric to quantify public opinion.
 
-For a more detailed discussion and the sample of code used for this analysis, please see the Jupyter Notebook `Analysis of Multi-Axial Political Identity`.
+For a more detailed discussion and the sample of code used for this analysis, please see the Jupyter Notebook `Analysis of Multi-Axial Political Identity.ipynb`.
 
 ![fig1](Figures/fig1.svg)
 
