@@ -14,7 +14,7 @@ To build the model I would gather data from web APIs, such as govTrack, Gallup, 
 
 As an initial exploratory data analysis, I collected time-series (2012-2015) cumulative public opinion data from the [American National Election Studies][1]. From the survey, I collected and processed "feeling thermometer" questions to track current associations with parties and public opinion. Thermometer surveys have a respondent place their opinion of a topic on a scale from 0 to 100 degrees, where indifference or no opinion is 50, a unfavorable opinion less than 50, and a favorable opinion greater than 50. This allows a convenient metric to quantify public opinion.
 
-For a more detailed discussion and the sample of code used for this analysis, please see the Jupyter Notebook [Analysis of Multi-Axial Political Identity.ipynb](Analysis\ of\ Multi-Axial\ Political\ Identity.ipynb).
+For a more detailed discussion and the sample of code used for this analysis, please see the Jupyter Notebook [`Analysis of Multi-Axial Political Identity.ipynb`](Analysis\ of\ Multi-Axial\ Political\ Identity.ipynb).
 
 ![fig1](Figures/fig1.svg)
 
