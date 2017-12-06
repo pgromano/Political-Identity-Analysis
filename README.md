@@ -1,6 +1,6 @@
 # Proposed Project
 
-For my data incubator project, I propose building an app that tracks current public opinions to evaluate political identity extending beyond the standard left or right, blue or red metric.  By increasing the dimensionality of the political spectrum, voter trends become more targeted, discovering nuanced communities, and accurately addressing which issues are of concerns to voters.
+Political identity is far more complicated than a left or right, blue or red metric.  By increasing the dimensionality of the political spectrum, voter trends become more targeted, discovering nuanced communities, and accurately addressing which issues are of concerns to voters.
 
 As evident from the US 2016 elections, there has been an increasing partisan divide not only between Republican and Democratic parties, but from members within the parties themselves. As this divide increases, the residual impact is largely not understood within the scope of a two-party system.
 
